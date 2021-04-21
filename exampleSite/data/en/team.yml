@@ -1,0 +1,44 @@
+############################### team ############################
+team:
+  enable : true
+  title : Meet the Officers
+  team_member :
+    # team member loop
+    - name : Sahil Jain
+      image_webp : ""
+      image : images/team/pres.jpeg
+      designation : President
+      content : 
+      social :
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/sahiljain11"
+        
+    # team member loop
+    - name : Matthew De Guzman
+      image_webp : images/team/team-2.webp
+      image : images/team/team-2.jpg
+      designation : Design Lead
+      content : 
+      social :
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/Matthew-De-Guzman"
+        
+    # team member loop
+    - name : Noah Beal
+      image_webp : images/team/team-3.webp
+      image : images/team/team-3.jpg
+      designation : Software Lead
+      content : 
+      social :
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/bebeal"
+        
+    # team member loop
+    - name : Conrad Li
+      image_webp : ""
+      image : images/team/leadml.jpeg
+      designation : Lead ML Instructor
+      content : 
+      social :
+        - icon : ti-github # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/conradliste"
