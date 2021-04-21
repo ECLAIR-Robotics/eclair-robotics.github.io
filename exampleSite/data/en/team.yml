@@ -15,8 +15,8 @@ team:
         
     # team member loop
     - name : Matthew De Guzman
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
+      image_webp : ""
+      image : images/team/design_lead.png
       designation : Design Lead
       content : 
       social :
@@ -25,8 +25,8 @@ team:
         
     # team member loop
     - name : Noah Beal
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
+      image_webp : ""
+      image : images/team/software_lead.jpeg
       designation : Software Lead
       content : 
       social :
