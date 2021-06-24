@@ -8,27 +8,27 @@
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-md">
+                    <!--Smaller Logo in the top left corner-->
+                    <!---TODO: Change top left logo-->
                     <a class="navbar-brand" href="{{ .Site.BaseURL }}">
-                        <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+                        <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" height=50px>
                     </a>
+                    <!--Button on mobile to toggle navigation bar-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
                         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="tf-ion-android-menu"></span>
                     </button>
-                    <!-- Icones & drapeaux de choix des langues -->
-                    <div id="drapeaux">
-                        <!-- Pour passer la langue actuelle (variable globale) dans la range => explicitement -->
-                        {{ range .Site.Params.listeLangues }}
-                        {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
-                        {{ end }}
-                    </div>
+                    <!--Navigation at the top-->
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto">
+                            <!--Home-->
                             <li class="nav-item">
                                 <a class="nav-link"
                                     href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
                             </li>
+                            <!--Loop through all other navigation bar items-->
                             {{ range .Site.Menus.nav }}
+                            <!--Case where the navigation item has a dropdown menu (i.e has children)-->
                             {{ if .HasChildren }}
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -41,9 +41,10 @@
                                     {{ end }}
                                 </div>
                             </li>
+                            <!--Case where the navigation item doesn't have a dropdown menu (i.e. no children)-->
                             {{ else }}
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
+                                <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
                             </li>
                             {{ end }}
                             {{ end }}

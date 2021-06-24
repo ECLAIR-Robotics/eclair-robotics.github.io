@@ -1,3 +1,4 @@
+# Metadata
 baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "UT Engineering and Computational Learning of Artifical Intelligence and Robotics"
@@ -8,47 +9,32 @@ summaryLength = 10
 enableRobotsTXT = true
 # google analytics tracking id
 googleAnalytics = "" # your analitics ID
-
 enableGitInfo = false
 pygmentsCodeFences = true
-
 # Multilangues setup
 # Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
 defaultContentLanguageInSubdir = true
 DefaultContentLanguage = "en"
 
-# Site Params
+# Site Variables
 [params]
-logo = "images/logo.png"
+logo = "images/logos/ECLAIR_logo2.png" # Logo in top left corner
 
-# Gestion des langues : FR / EN / NL / DE
-[[Params.listeLangues]]
-code = "en"
-
-# meta data
-author = "Themefisher"
-description = "This is meta description"
-
-# Gestion des langues : FR / EN / NL / DE
-[Languages]
-
-############# 2 - Site en ENGLISH
-[Languages.en]
-weight = 2
-languageCode = "en-us"
-title = "Example site multi-language"
-dateFormat = "January 2, 2006"
-home = "EN Home"
-logo = "images/logo.png"
+# Site Meta Data
+title = "UT ECLAIR" # Site Title
+author = "Conrad Li" # Site Creator
+description = "The University of Texas at Austin's Engineering and Computational Learning in Artificial Intelligence and Robotics"
+languageCode = "en-us" # Language
+dateFormat = "January 2, 2006" # How to format dates
+home = "Home" # Name of navigation item that targets the homepage
 menufixed = false
 
-# Footer Variables
-#[Footer]
+# Footer Variables (contains social media)
 footerTitle = "Follow Us"
-githubLink = "https://github.com/UT-ECLAIR"
-githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png"
+githubLink = "https://github.com/UT-ECLAIR" # Github Link
+githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
 
-# cookies
+# Cookies
 [params.cookies]
 enable = true
 expire_days = 2
@@ -59,15 +45,15 @@ enable  = true
 heading = "Our mission is to drive innovation in AI and robotics at the undergraduate level."
 description = ""
 button  = true
-btnText = "Know More"
-btnURL  = "about"
+btnText = "View Our Current Projects"
+btnURL  = "projects"
 eclairLogo = "images/logos/ECLAIR_logo2.png"
 
 # About 2 Section
 [Languages.en.params.aboutSm]
 enable  = true
-title   = "We have explored the digital landscape with passion for a long time"
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae deleniti ipsa labore necessitatibus culpa veritatis quo accusantium, neque enim ea ad eaque iure, quas tempore velit, quibusdam dolor illo! Explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quisquam maiores iste soluta, nihil dolorem?"
+title   = "Geared toward helping students pursue their passion for robotics"
+description = "The Engineering and Computational Learning of Artificial Intelligence in Robotics (ECLAIR) is a club at UT Austin dedicated to helping all robot-loving students to transform their wildest robotics fantasies into a reality. We provide the robotics parts and teach members state-of-the-art machine learning techiniques such as neural networks and reinforcement learning to give students the ability to pursue their robotics projects. If you have a cool robot you want to build, come join us!"
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
@@ -78,21 +64,21 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 
 # Contact Section
 [Languages.en.params.contact]
-enable  = true
-topTitle= "DROP US A NOTE"
-title   = "Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
+enable  = false
+#topTitle= "DROP US A NOTE"
+#title   = "Contact Us."
+#subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+#address = "14/05, Stockhome <br> Victori Palace , United States"
+#phone   = "(03) 9283 2617"
+#fax     = "+61 3827 3590"
+#facebook= "https://www.facebook.com/"
+#twitter = "https://twitter.com/"
+#linkedin= "https://www.linkedin.com/"
+#dribbble= "https://dribbble.com/"
+#instagram= "https://www.instagram.com/"
+#mapLatitude = "51.507351"
+#mapLongitude= "-0.127758"
+#mapMarker   = "images/marker.png"
 
 # Call to Action Section on About Page
 [Languages.en.params.cta]
@@ -102,60 +88,34 @@ title   = "Let's Create Something Together"
 subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 btnText = "Contact Us"
 
-# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
-
 # Site Menus
 [menu]
 # Navbar Menus
-[[menu.nav]]
-name    = "about"
-url     = "about"
-weight  = 2
-[[menu.nav]]
-name    = "service"
-url     = "service"
-weight  = 3
-[[menu.nav]]
-name    = "portfolio"
-url     = "portfolio"
-weight  = 4
-[[menu.nav]]
-name    = "blog"
-url     = "blog"
-weight  = 5
-[[menu.nav]]
-name    = "contact"
-url     = "contact"
-weight  = 6
 
-# Footer Service Menu
-[[menu.service]]
-name    = "graphicdesign"
-url     = "service"
-weight  = 1
-[[menu.service]]
-name    = "webdesign"
-url     = "service"
+[[menu.nav]]
+name    = "Projects"
+url     = "projects"
 weight  = 2
-[[menu.service]]
-name    = "webdevelopment"
-url     = "service"
+
+[[menu.nav]]
+name    = "Members"
+url     = "members"
 weight  = 3
 
-# Footer Quick links Menu
-[[menu.quicklink]]
-name    = "partners"
-url     = "about"
-weight  = 1
-[[menu.quicklink]]
-name    = "about"
-url     = "about"
-weight  = 2
-[[menu.quicklink]]
-name    = "faqs"
-url     = "about"
-weight  = 3
-[[menu.quicklink]]
-name    = "badges"
-url     = "about"
+
+[[menu.nav]]
+name    = "Sponsors"
+url     = "sponsors"
 weight  = 4
+
+# TODO: Maybe do more extensive about us page later?
+#[[menu.nav]]
+#name    = "About" # Name of navigation item
+#url     = "about" # URL suffix leading to the target page (all webpage names can be vie)
+#weight  = 2 # The ordering of the navigation item  (lower means earlier ordering)
+
+# TODO: Maybe do
+#[[menu.nav]]
+#name    = "Blog"
+#url     = "blog"
+#weight  = 5

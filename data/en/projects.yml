@@ -1,0 +1,25 @@
+enable  : true
+topTitle: ""
+title   : Our Projects
+subtitle: 2020-2021
+
+filtermenu :
+  - name      : Fall 2021
+    category  : fall2021
+
+item   :
+  - title : Sim2Real Drone Racing
+    image : images/portfolio/portfolio-1.jpg
+    category  : fall2021
+
+  - title : AWS Deepracer
+    image : images/portfolio/portfolio-2.jpg
+    category  : fall2021
+
+  - title : Coffee Delivery Robot
+    image : images/portfolio/portfolio-3.jpg
+    category  : fall2021
+
+  - title : Precise Surgical Arm
+    image : images/portfolio/portfolio-4.jpg
+    category  : fall2021
