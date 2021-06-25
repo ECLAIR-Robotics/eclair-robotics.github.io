@@ -1,0 +1,41 @@
+enable  : true
+topTitle: ""
+title   : Officers
+subtitle: ""
+
+member  :
+  - image         : images/team/pres.jpeg
+    name          : Sahil Jain
+    designation   : President
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : images/team/leadml.jpeg
+    name          : Conrad Li
+    designation   : Lead ML Instructor
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : images/team/design_lead.png
+    name          : Matthew Alain De Guzman
+    designation   : Design Lead
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+
+  - image         : images/team/software_lead.jpeg
+    name          : Benjamin Beal
+    designation   : Software Lead
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""

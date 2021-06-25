@@ -1,0 +1,8 @@
+enable    : true
+title     : Sponsorships
+description: We are always trying to provide our members with the most cutting-edge robotics hardware available and would greatly appreciate any potential sponsors. If you are interested in sponsoring UT ECLAIR, please contact us at uteclair@gmail.com.
+image     : images/about/about-1.jpg
+servicelist:
+#  - name    : Creative Designers
+clientLogo:
+#  - image   : images/client-logo/

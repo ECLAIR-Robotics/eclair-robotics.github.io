@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index .Site.Data }}
 {{ with $data.team }}
     {{ if .enable }}
     {{ "<!-- Team Section Start -->" | safeHTML }}

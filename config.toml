@@ -29,10 +29,13 @@ dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
 menufixed = false
 
-# Footer Variables (contains social media)
-footerTitle = "Follow Us"
+# Footer Social Media Variables
+socialMediaTitle = "Follow Us"
 githubLink = "https://github.com/UT-ECLAIR" # Github Link
 githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
+# Footer Email Variables
+emailTitle = "Contact Us"
+emailAddress = "uteclair@gmail.com"
 
 # Cookies
 [params.cookies]

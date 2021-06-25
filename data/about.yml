@@ -1,0 +1,11 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/about/niekum_stone_robots.jpg
+    title : Situated in a Leading AI and Robotics Research Institution
+    description : "AT UT Austin, there is wide range of robotics research from surgical robotics to autonomous driving to artifical assistants. In ECLAIR, students can take advantage of all the resources UT Austin to explore their interests in robotics."
+
+  - positionRight : true
+    image : images/about/anna_hiss.jpg
+    title : State of the Art Facilities
+    description: "Partnering with the Anna Hiss Gymnasium and UT Austin Makerspace, ECLAIR helps provide resources that students need to create and test their AI algorithms on physical robots"

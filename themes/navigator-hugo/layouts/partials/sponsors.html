@@ -1,5 +1,5 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.clients }}
+{{ $data := index .Site.Data }}
+{{ with $data.sponsors }}
     {{ if .enable }}
     {{ "<!-- Client Section Start -->" | safeHTML }}
     <section class="section">
