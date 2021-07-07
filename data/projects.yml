@@ -9,17 +9,17 @@ filtermenu :
 
 item   :
   - title : Sim2Real Drone Racing
-    image : images/portfolio/portfolio-1.jpg
+    image : images/projects/drone.png
     category  : fall2021
 
   - title : AWS Deepracer
-    image : images/portfolio/portfolio-2.jpg
+    image : images/projects/awsracer.png
     category  : fall2021
 
   - title : Coffee Delivery Robot
-    image : images/portfolio/portfolio-3.jpg
+    image : images/projects/coffeebot.png
     category  : fall2021
 
   - title : Precise Surgical Arm
-    image : images/portfolio/portfolio-4.jpg
+    image : images/projects/surgery.png
     category  : fall2021
