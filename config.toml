@@ -1,5 +1,5 @@
 # Metadata
-baseURL = "https://example.org/"
+baseURL = "https://ut-eclair.github.io"
 languageCode = "en-us"
 title = "UT Engineering and Computational Learning of Artifical Intelligence and Robotics"
 theme = "navigator-hugo"
