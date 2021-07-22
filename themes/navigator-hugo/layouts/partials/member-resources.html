@@ -1,0 +1,30 @@
+{{ $data := index .Site.Data }}
+{{ with $data.memberResources }}
+    {{if .enable}}
+    <section class="member-resources section">
+        <div class="container">
+            <!--Title-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title text-center">
+                        {{ with .title }}
+                            <h2>{{ . }}</h2>
+                            <span class="border"></span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <!--List of Slides Links-->
+            <div class="row">
+                <div class="col-md-12">
+                    {{ range .item }}
+                    <div class="text-center p-1">
+                        <a href={{.link}} target=_blank>{{ .title }}</a>
+                    </div>
+                    {{ end}}
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+{{ end }}

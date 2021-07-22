@@ -7,7 +7,8 @@
             {{ range .item }}
                 {{ if .positionRight }}
                     <div class="row mt-50 justify-content-center">
-                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                        <!--Description-->
+                        <div class="col-md-6 col-sm-12">
                             <div class="content">
                                 <h2>{{ .title }}</h2>
                                 <p>
@@ -15,16 +16,17 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                        <!--Image-->
+                        <div class="col-md-6 col-sm-12 text-center">
                             <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
                         </div>
                     </div>
                 {{ else }}
                     <div class="row mb-50 justify-content-center">
-                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                        <div class="col-md-6 col-sm-12 text-center">
                             <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
                         </div>
-                        <div class="col-md-5 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
                             <div class="content">
                                 <h2>{{ .title }}</h2>
                                 <p>

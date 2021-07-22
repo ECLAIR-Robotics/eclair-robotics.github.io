@@ -1,0 +1,23 @@
+enable  : true
+title   : "Talk Slides"
+
+item   :
+  - title : Introduction to Reinforcement Learning
+    category  : fall2021
+    link: https://docs.google.com/presentation/d/1z2ItVMJxIbRFmlTMc_EnbV_Rkl_XM0YXgNn0G_MD-FY/edit?usp=sharing
+
+  - title : Markov Decision Processes and Model-Free Methods
+    category  : fall2021
+    link: https://docs.google.com/presentation/d/1mCNnuxMEcQ9zPQJO4LZ14VRzMCkMAqkjmGqCErXx26s/edit?usp=sharing
+
+  - title : Q-Learning
+    category  : fall2021
+    link: https://docs.google.com/presentation/d/1VEJUk3_Sf1wC-RRmQxsi5HooLLMD0V_doVKPRyrr9W0/edit?usp=sharing
+  
+  - title : Deep-Learning
+    category  : fall2021
+    link: https://docs.google.com/presentation/d/14xJvQWdyEbCfhtOw9rDB0D9fre4sfTTEozrbnPKXTdQ/edit?usp=sharing
+
+  - title : Computer Vision and Deep Q-Learning
+    category  : fall2021
+    link: https://docs.google.com/presentation/d/1E0I_jpDuo3InZgVY09Y_CuMULSV6ivXKMwIHtpYaibI/edit?usp=sharing
