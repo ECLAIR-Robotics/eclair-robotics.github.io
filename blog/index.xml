@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ENGLISH Blog on UT Engineering and Computational Learning of Artifical Intelligence and Robotics</title>
+    <link>https://example.org/blog/</link>
+    <description>Recent content in ENGLISH Blog on UT Engineering and Computational Learning of Artifical Intelligence and Robotics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jul 2018 18:23:33 +0600</lastBuildDate>
+    
+	<atom:link href="https://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog Photos on Phone</title>
+      <link>https://example.org/blog/blog-photos-on-phone/</link>
+      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
+      
+      <guid>https://example.org/blog/blog-photos-on-phone/</guid>
+      <description>Viral dreamcatcher keytar typewriter, aesthetic offal umami. Wellness spaces that reach neglected communities of color are essential, says spiritual advisor, mojo health advocate, and writer Anna Smith.</description>
+    </item>
+    
+    <item>
+      <title>How To Setup Navigator Hugo</title>
+      <link>https://example.org/blog/installation/</link>
+      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
+      
+      <guid>https://example.org/blog/installation/</guid>
+      <description>Install this template by following those simple steps: STEP-1 : Hugo installation Check this link below for install hugo on your computer.</description>
+    </item>
+    
+    <item>
+      <title>The Nourish Box August</title>
+      <link>https://example.org/blog/the-nourish-box-august/</link>
+      <pubDate>Sun, 08 Jul 2018 12:20:58 +0600</pubDate>
+      
+      <guid>https://example.org/blog/the-nourish-box-august/</guid>
+      <description>Viral dreamcatcher keytar typewriter, aesthetic offal umami. Wellness spaces that reach neglected communities of color are essential, says spiritual advisor, mojo health advocate, and writer Anna Smith.</description>
+    </item>
+    
+    <item>
+      <title>This Show Has Divided</title>
+      <link>https://example.org/blog/this-show-has-divided/</link>
+      <pubDate>Sun, 08 Jul 2018 12:18:46 +0600</pubDate>
+      
+      <guid>https://example.org/blog/this-show-has-divided/</guid>
+      <description>Chatting with the ancestors I always say my thanks to my ancestors and talk with them, with my guides.</description>
+    </item>
+    
+    <item>
+      <title>Why You Need a Statement Bag</title>
+      <link>https://example.org/blog/why-you-need-a-statement-bag-this-season/</link>
+      <pubDate>Sun, 08 Jul 2018 12:11:29 +0600</pubDate>
+      
+      <guid>https://example.org/blog/why-you-need-a-statement-bag-this-season/</guid>
+      <description>A cleansing hot shower or bath I like to start with taking a shower or a bath when getting ready for bed.</description>
+    </item>
+    
+    <item>
+      <title>Are You Doing the Right Way</title>
+      <link>https://example.org/blog/are-you-doing-the-right-way/</link>
+      <pubDate>Sat, 07 Jul 2018 17:04:41 +0600</pubDate>
+      
+      <guid>https://example.org/blog/are-you-doing-the-right-way/</guid>
+      <description>Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Something I Need to Tell You</title>
+      <link>https://example.org/blog/something-i-need-to-tell-you/</link>
+      <pubDate>Sat, 07 Jul 2018 17:04:02 +0600</pubDate>
+      
+      <guid>https://example.org/blog/something-i-need-to-tell-you/</guid>
+      <description>Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Ten Things About Business</title>
+      <link>https://example.org/blog/ten-things-about-business/</link>
+      <pubDate>Sat, 07 Jul 2018 16:57:54 +0600</pubDate>
+      
+      <guid>https://example.org/blog/ten-things-about-business/</guid>
+      <description>Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>
