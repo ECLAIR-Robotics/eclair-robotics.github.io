@@ -143,8 +143,16 @@ a:focus, a:hover {
   padding: 70px 0;
 }
 
+.section-sm-none {
+  padding: 70px 0px 0px 0px;
+}
+
 .section-xs {
   padding: 40px 0;
+}
+
+.section-xxs {
+  padding: 20px 0;
 }
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
@@ -1118,8 +1126,11 @@ Backgrounds
   Sponsor Page
 ==================================================================*/
 
-.sponsor p {
-  font-size: 20px;
+.sponsor .title p {
+  color: #848484;
+  width: 80%;
+  font-size: 16;
+  margin: 0 auto;
 }
 
 .sponsors-logo-slider {

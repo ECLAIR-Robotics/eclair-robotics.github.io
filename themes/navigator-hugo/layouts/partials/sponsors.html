@@ -2,11 +2,15 @@
 {{ with $data.sponsors }}
     {{ if .enable }}
     {{ "<!-- Client Section Start -->" | safeHTML }}
-    <section class="section bg-gray">
+    <section class="sponsor section-sm-none bg-gray">
         <div class="container">
-            <!--Title and Description-->
             <div class="row bg-gray">
-                <div class="sponsor title col-sm-12 text-center">
+                <!--Sponsor Image-->
+                <div class="col-md-6 text-center">
+                    {{ with .image }}<img class="img-fluid bg-transparent rounded" src="{{ . | absURL }}" alt="service-image" width=50%>{{ end }}
+                </div>
+                <!--Title and Description-->
+                <div class="title col-md-6 text-center">
                     {{ with .title }}<h2>{{.}}</h2>{{ end }}
                     <span class="border"></span>
                     {{ with .description }}<p>{{.}}</p>{{ end }}
@@ -14,17 +18,12 @@
             </div>
         </div>
     </section>
-    <section class="section-xs">
+    <section class="padding-0">
         <div class="container">
-            <!--Image of Waving Robot-->
             <div class="row justify-content-center">
-                <!--Sponsor Image-->
-                <div class="col-md-6 text-center">
-                    {{ with .image }}<img class="img-fluid bg-transparent rounded" src="{{ . | absURL }}" alt="service-image" width=50%>{{ end }}
-                </div>
                 <!--Contact Email-->
-                <div class="col-sm-6 my-auto">
-                    <div class="text-center">
+                <div class="col-md-12 my-auto">
+                    <div class="text-center p-4">
                         {{ with .emailIcon }}<img class="bg-transparent" src="{{ . | absURL }}" alt="service-image" width=20%>{{ end }}
                     </div>
                     <div class="text-center">
