@@ -59,7 +59,7 @@
                     
                     
                     <a class="navbar-brand" href="https://ut-eclair.github.io">
-                        <img src="https://ut-eclair.github.io/images/logos/ECLAIR_logo2.png" alt="UT Engineering and Computational Learning of Artifical Intelligence and Robotics" height=50px>
+                        <img src="https://ut-eclair.github.io/images/logos/small_eclair_logo.png" alt="UT Engineering and Computational Learning of Artifical Intelligence and Robotics" height=50px>
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -129,11 +129,15 @@
 
     
     <!-- Client Section Start -->
-    <section class="section bg-gray">
+    <section class="sponsor section-sm-none bg-gray">
         <div class="container">
-            
             <div class="row bg-gray">
-                <div class="sponsor title col-sm-12 text-center">
+                
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid bg-transparent rounded" src="https://ut-eclair.github.io/images/icons/bot.png" alt="service-image" width=50%>
+                </div>
+                
+                <div class="title col-md-6 text-center">
                     <h2>Sponsorships</h2>
                     <span class="border"></span>
                     <p>We are always trying to provide our members with the most cutting-edge robotics hardware available and would greatly appreciate any potential sponsorships. If you are interested in sponsoring UT ECLAIR, please contact us at the email below and we can send you our sponsor packet!</p>
@@ -141,17 +145,12 @@
             </div>
         </div>
     </section>
-    <section class="section-xs">
+    <section class="padding-0">
         <div class="container">
-            
             <div class="row justify-content-center">
                 
-                <div class="col-md-6 text-center">
-                    <img class="img-fluid bg-transparent rounded" src="https://ut-eclair.github.io/images/icons/bot.png" alt="service-image" width=50%>
-                </div>
-                
-                <div class="col-sm-6 my-auto">
-                    <div class="text-center">
+                <div class="col-md-12 my-auto">
+                    <div class="text-center p-4">
                         <img class="bg-transparent" src="https://ut-eclair.github.io/images/icons/robotic.png" alt="service-image" width=20%>
                     </div>
                     <div class="text-center">
@@ -162,7 +161,7 @@
             
             <div class="row">
                 <div class="col-md-12">
-                    <div id="clients-slider" class="clients-logo-slider">
+                    <div id="clients-slider" class="sponsors-logo-slider">
                         
                     </div>
                 </div>
@@ -340,46 +339,6 @@
 <script src="https://ut-eclair.github.io/js/script.min.js"></script>
 
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-outline-primary ml-2">I Accept</span>
-</div>
-<script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires:  2 
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
-</script>
-
-
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
 
 </body>
 </html>

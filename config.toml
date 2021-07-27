@@ -5,20 +5,13 @@ title = "UT Engineering and Computational Learning of Artifical Intelligence and
 theme = "navigator-hugo"
 summaryLength = 10
 
-# Build robots.txt file
-enableRobotsTXT = true
-# google analytics tracking id
-googleAnalytics = "" # your analitics ID
-enableGitInfo = false
-pygmentsCodeFences = true
-# Multilangues setup
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = true
-DefaultContentLanguage = "en"
+publishDir = "docs" # Tells hugo where to put the built site
+pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
+
 
 # Site Variables
 [params]
-logo = "images/logos/ECLAIR_logo2.png" # Logo in top left corner
+logo = "images/logos/small_eclair_logo.png" # Logo in top left corner
 
 # Site Meta Data
 title = "UT ECLAIR" # Site Title
@@ -77,16 +70,12 @@ enable  = false
 #facebook= "https://www.facebook.com/"
 #twitter = "https://twitter.com/"
 #linkedin= "https://www.linkedin.com/"
-#dribbble= "https://dribbble.com/"
 #instagram= "https://www.instagram.com/"
-#mapLatitude = "51.507351"
-#mapLongitude= "-0.127758"
-#mapMarker   = "images/marker.png"
 
 # Site Menus
 [menu]
-# Navbar Menus
 
+# Navbar Menus
 [[menu.nav]]
 name    = "Projects"
 url     = "projects"
