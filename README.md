@@ -13,8 +13,4 @@ After cloning the directory, you can host the web server locally by running the 
 
 ## Deploying the Code to GitHub Pages
 
-In order to deploy the code to Github Pages, you first need to run the command `hugo` in the root direcory of the clone repository. This will generate html and css files for the website in a directory called `public`. You then need to copy the contents of `public` to `docs` so GitHub can find it and deploy it. Assuming you are in the root directory of the repo, you can do that with following command
-
-```bash=
-cp public/* docs/
-```
+In order to deploy the code to Github Pages, you just need to run the command `hugo` in the root direcory of the clone repository. This will make HUGO generate the necessary HTML files that GitHub pages needs in the `docs` directory. If you ever need to change the output directory, it is set in the `config.toml` file as `publicDir`.
