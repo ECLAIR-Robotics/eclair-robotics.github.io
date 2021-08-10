@@ -3,25 +3,45 @@
     {{if .enable}}
     <section class="member-resources section">
         <div class="container">
-            <!--Title-->
             <div class="row">
-                <div class="col-md-12">
+                <!-- Talk Slides-->
+                <div class="col-md-6">
+                    <!-- Talk Slides Title -->
                     <div class="title text-center">
-                        {{ with .title }}
+                        {{ with .slideTitle }}
                             <h2>{{ . }}</h2>
                             <span class="border"></span>
                         {{ end }}
                     </div>
-                </div>
-            </div>
-            <!--List of Slides Links-->
-            <div class="row">
-                <div class="col-md-12">
-                    {{ range .item }}
-                    <div class="text-center p-1">
-                        <a href={{.link}} target=_blank>{{ .title }}</a>
+                    <!-- Talk Slide links -->
+                    <div>
+                        {{ range .item }}
+                        <div class="text-center p-1">
+                            <a href={{.link}} target=_blank>
+                                {{ .title }}
+                            </a>
+                        </div>
+                        {{ end}}
                     </div>
-                    {{ end}}
+                </div>
+                <!-- Join Us Discord Link -->
+                <div class="col-md-6">
+                    <!-- Discord Title -->
+                    <div class="title text-center">
+                        {{ with .discordTitle }}
+                            <h2>{{ . }}</h2>
+                            <span class="border"></span>
+                        {{ end }}
+                    </div>
+                    <!-- Discord Link -->
+                    <div class="text-center">
+                        <a href={{.discordLink}} target="_blank">
+                            <img src={{.discordIcon | absURL}} width=60px>
+                        </a>
+                        <a href={{.discordLink}} target="_blank">
+                            <h3>{{.discordLink}}</h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

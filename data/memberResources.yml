@@ -1,5 +1,8 @@
 enable  : true
-title   : "Talk Slides"
+slideTitle   : "Talk Slides"
+discordLink: "https://discord.gg/tgbvpCjNgV"
+discordTitle: "Join Us on Discord!"
+discordIcon: "images/social_icons/Discord-Logo-Color.png"
 
 item   :
   - title : Introduction to Reinforcement Learning

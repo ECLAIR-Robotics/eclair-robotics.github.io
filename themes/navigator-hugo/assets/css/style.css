@@ -344,7 +344,7 @@ a:focus, a:hover {
   ====================*/
 
 .title {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -1120,6 +1120,12 @@ Backgrounds
 
 .member-resources a:hover {
   color: #e668e6;
+}
+
+.member-resources .p-1 a:link {
+  color: #666;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 /*=================================================================

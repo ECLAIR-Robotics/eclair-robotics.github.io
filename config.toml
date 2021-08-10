@@ -29,6 +29,10 @@ githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
 # Footer Email Variables
 emailTitle = "Contact Us"
 emailAddress = "uteclair@gmail.com"
+# Footer Discord Variables
+discordTitle = "Join Us"
+discordLink = "https://discord.gg/aPSsBzh9" # Discord Invite link
+discordIcon = "images/social_icons/Discord-Logo-White.png" # Discord Icon
 
 # Cookies
 [params.cookies]
