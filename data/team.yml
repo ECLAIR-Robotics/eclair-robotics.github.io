@@ -4,18 +4,18 @@ title   : Officers
 subtitle: ""
 
 member  :
-  - image         : images/team/pres.jpeg
+  - image         : images/team/pres1.jpeg
     name          : Sahil Jain
-    designation   : President
+    designation   : Co-President
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : images/team/leadml.jpeg
+  - image         : images/team/pres2.jpeg
     name          : Conrad Li
-    designation   : Lead ML Instructor
+    designation   : Co-President
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
@@ -24,7 +24,7 @@ member  :
 
   - image         : images/team/design_lead.png
     name          : Matthew Alain De Guzman
-    designation   : Design Lead
+    designation   : Logistics & Design Lead
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
