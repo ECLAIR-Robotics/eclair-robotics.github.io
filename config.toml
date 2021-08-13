@@ -7,7 +7,6 @@ summaryLength = 10
 
 publishDir = "docs" # Tells hugo where to put the built site
 pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
-favicon = "images/favicon.ico"
 
 # Site Variables
 [params]
