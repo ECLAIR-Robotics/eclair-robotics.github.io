@@ -8,8 +8,8 @@ filtermenu :
     category  : fall2021
 
 item   :
-  - title : Sim2Real Drone Racing
-    image : images/projects/drone.png
+  - title : Smart Mirror
+    image : images/projects/dashboard.png
     category  : fall2021
 
   - title : AWS Deepracer
