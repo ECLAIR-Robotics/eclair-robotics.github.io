@@ -1,4 +1,4 @@
-# UT ECLAIR Website
+# ECLAIR Website
 This is the GitHub repository containing the code for the UT ECLAIR website. This website was created using the HUGO static site generator and  
 
 ## Installing Dependencies
