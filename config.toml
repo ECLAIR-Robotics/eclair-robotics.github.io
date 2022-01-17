@@ -1,7 +1,7 @@
 # Metadata
 baseURL = "https://eclair-robotics.github.io"
 languageCode = "en-us"
-title = "UT Engineering and Computational Learning of Artifical Intelligence and Robotics"
+title = "Engineering and Computational Learning of Artifical Intelligence and Robotics"
 theme = "navigator-hugo"
 summaryLength = 10
 
@@ -13,9 +13,9 @@ pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 logo = "images/logos/small_eclair_logo.png" # Logo in top left corner
 
 # Site Meta Data
-title = "UT ECLAIR" # Site Title
+title = "ECLAIR" # Site Title
 author = "Conrad Li" # Site Creator
-description = "The University of Texas at Austin's Engineering and Computational Learning in Artificial Intelligence and Robotics"
+description = "Engineering and Computational Learning in Artificial Intelligence and Robotics"
 languageCode = "en-us" # Language
 dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
@@ -23,11 +23,11 @@ menufixed = false
 
 # Footer Social Media Variables
 socialMediaTitle = "Follow Us"
-githubLink = "https://github.com/UT-ECLAIR" # Github Link
+githubLink = "https://github.com/ECLAIR-Robotics" # Github Link
 githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
 # Footer Email Variables
 emailTitle = "Contact Us"
-emailAddress = "uteclair@gmail.com"
+emailAddress = "eclairrobotics@gmail.com"
 # Footer Discord Variables
 discordTitle = "Join Us"
 discordLink = "https://discord.gg/tgbvpCjNgV" # Discord Invite link
