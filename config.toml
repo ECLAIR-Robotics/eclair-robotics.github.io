@@ -25,6 +25,8 @@ menufixed = false
 socialMediaTitle = "Follow Us"
 githubLink = "https://github.com/ECLAIR-Robotics" # Github Link
 githubIcon = "images/social_icons/GitHub-Mark-Light-32px.png" # Github Icon
+instagramLink = "https://www.instagram.com/eclairrobotics/" # Instagram Link
+instagramIcon = "images/social_icons/insta_icon.png" # Instagram Icon
 # Footer Email Variables
 emailTitle = "Contact Us"
 emailAddress = "eclairrobotics@gmail.com"

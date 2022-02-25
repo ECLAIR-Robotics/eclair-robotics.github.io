@@ -7,6 +7,9 @@
                 <!-- GitHub -->
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.socialMediaTitle }}</h3>
+                    <a href={{.Site.Params.instagramLink}} target="_blank">
+                        <img src={{.Site.Params.instagramIcon | absURL}}>
+                    </a>
                     <a href={{.Site.Params.githubLink}} target="_blank">
                         <img src={{.Site.Params.githubIcon | absURL}}>
                     </a>
@@ -18,7 +21,7 @@
                         <img src={{.Site.Params.discordIcon | absURL}} width=32px>
                     </a>
                 </div>
-                <!-- Emaili -->
+                <!-- Email -->
                 <div class="col-sm-3 col-md-3 col-lg-3">
                     <h3>{{ .Site.Params.emailTitle }}</h3>
                     <p>{{ .Site.Params.emailAddress }}</p>
