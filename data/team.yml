@@ -4,7 +4,7 @@ title   : Officers
 subtitle: ""
 
 member  :
-  - image         : images/team/pres1.jpeg
+  - image         : images/team/sahil.jpg
     name          : Sahil Jain
     designation   : Co-President
     description   : ""
@@ -13,7 +13,7 @@ member  :
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : images/team/pres2.jpeg
+  - image         : images/team/conrad.jpg
     name          : Conrad Li
     designation   : Co-President
     description   : ""
@@ -22,18 +22,27 @@ member  :
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : images/team/design_lead.png
-    name          : Matthew Alain De Guzman
-    designation   : Logistics & Design Lead
+  - image         : images/team/masha.png
+    name          : Marina Larina
+    designation   : Logistics Director
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : images/team/software_lead.jpeg
-    name          : Benjamin Beal
-    designation   : Software Lead
+  - image         : images/team/om.jpg
+    name          : Om Goswami
+    designation   : Corporate Officer
+    description   : ""
+    facebookURL   : ""
+    twitterURL    : ""
+    gplusURL      : ""
+    dribbbleURL   : ""
+  
+  - image         : images/team/henry.png
+    name          : Henry Castillo
+    designation   : ML Officer
     description   : ""
     facebookURL   : ""
     twitterURL    : ""
