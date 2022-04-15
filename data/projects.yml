@@ -12,10 +12,6 @@ item   :
     image : images/projects/dashboard.png
     category  : fall2021
 
-  - title : AWS Deepracer
-    image : images/projects/awsracer.png
-    category  : fall2021
-
-  - title : Coffee Delivery Robot
-    image : images/projects/coffeebot.png
+  - title : Robotic Arm
+    image : images/projects/robotic_arm.jfif 
     category  : fall2021
