@@ -23,7 +23,7 @@ member  :
     dribbbleURL   : ""
 
   - image         : images/team/masha.png
-    name          : Marina Larina
+    name          : Masha Larina
     designation   : Logistics Director
     description   : ""
     facebookURL   : ""
@@ -31,14 +31,14 @@ member  :
     gplusURL      : ""
     dribbbleURL   : ""
 
-  - image         : images/team/om.jpg
-    name          : Om Goswami
-    designation   : Corporate Officer
-    description   : ""
-    facebookURL   : ""
-    twitterURL    : ""
-    gplusURL      : ""
-    dribbbleURL   : ""
+  # - image         : images/team/om.jpg
+  #   name          : Om Goswami
+  #   designation   : Corporate Officer
+  #   description   : ""
+  #   facebookURL   : ""
+  #   twitterURL    : ""
+  #   gplusURL      : ""
+  #   dribbbleURL   : ""
   
   - image         : images/team/henry.png
     name          : Henry Castillo
