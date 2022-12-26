@@ -4,8 +4,7 @@ This is the GitHub repository containing the code for the UT ECLAIR website. Thi
 ## Installing Dependencies
 If you are on Windows, you must run the website on Windows Subsystem for Linux (WSL). The only dependency you need is HUGO static site generator which you can install with
 
-```bash=
-sudo apt-get install hugo
+```bash=sudo apt-get install hugo
 ```
 ## Running the Website Locally
 
