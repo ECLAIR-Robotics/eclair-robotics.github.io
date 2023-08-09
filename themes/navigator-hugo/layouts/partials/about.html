@@ -1,44 +1,9 @@
-{{ $data := index .Site.Data }}
-{{ with $data.about }}
-    {{ if .enable }}
-    {{ "<!-- About Section Start -->" | safeHTML }}
-    <section class="about section-sm" id="about">
-        <div class="container">
-            {{ range .item }}
-                {{ if .positionRight }}
-                    <div class="row mt-50 justify-content-center">
-                        <!--Description-->
-                        <div class="col-md-6 col-sm-12">
-                            <div class="content">
-                                <h2>{{ .title }}</h2>
-                                <p>
-                                    {{ .description }}
-                                </p>
-                            </div>
-                        </div>
-                        <!--Image-->
-                        <div class="col-md-6 col-sm-12 text-center">
-                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
-                        </div>
-                    </div>
-                {{ else }}
-                    <div class="row mb-50 justify-content-center">
-                        <div class="col-md-6 col-sm-12 text-center">
-                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="content">
-                                <h2>{{ .title }}</h2>
-                                <p>
-                                    {{ .description }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                {{ end }}
-            {{ end }}
-        </div>
-    </section>
-    {{"<!-- About section End -->" | safeHTML}}
-    {{ end }}
-{{ end }}
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=https://eclairrobotics.web.app">
+<script>
+  window.location.href = "https://eclairrobotics.web.app";
+</script>
+</head>
+<body></body>
+</html>
