@@ -11,6 +11,7 @@ pygmentsCodeFences = true # Allows code block syntax highlighting for markdown
 # Site Variables
 [params]
 logo = "images/logos/small_eclair_logo.png" # Logo in top left corner
+redirect_url = "https://eclairrobotics.web.app"
 
 # Site Meta Data
 title = "ECLAIR" # Site Title
@@ -20,6 +21,7 @@ languageCode = "en-us" # Language
 dateFormat = "January 2, 2006" # How to format dates
 home = "Home" # Name of navigation item that targets the homepage
 menufixed = false
+redirect_url = "https://eclairrobotics.web.app"
 
 # Footer Social Media Variables
 socialMediaTitle = "Follow Us"
